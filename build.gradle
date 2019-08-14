@@ -24,8 +24,8 @@ dependencies {
 
 sonarqube{
     properties{
-        property "sonar.projectName", "Juan Esteban - Basic Calculator"
-        property "sonar.projectKey", "Juan Esteban-basicCalculator.key"
+        property "sonar.projectName", "Juan-Esteban - Basic Calculator"
+        property "sonar.projectKey", "Juan-Esteban-basicCalculator.key"
         property "sonar.jacoco.reportPath", "${project.buildDir}/jacoco/jacocoTest.exec"
     }
 }
